@@ -1,0 +1,158 @@
+.profes{
+    margin-top: 25px;
+    float: right;
+    padding-bottom: 10%;
+}
+.planning{
+    float:left;
+    height: 300px;
+    width: 400px;
+    border-radius: 0px;
+    padding-right: 20px;
+}
+.skills{
+    display: -moz-inline-grid;
+}
+.skills h1{
+    font-size: 40px;
+}
+.skills p{
+    font-size: 20px;
+}
+.bar1,.bar2,.bar3{
+    height: 25px;
+    width: 48%;
+    background-color: blue ;
+    border-radius: 15px;
+}
+.bar2{
+    width: 42%;
+}
+.bar3{
+    width: 30%;
+}
+.skiimg{
+    float: right;
+    height: 300px;
+    width: 400px;
+}
+button{
+    margin: 10px;
+    border-radius: 7px;
+    font-size: 14px;
+    background-color:aquamarine;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.resimage{
+    display: flexbox;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.resimage h1,.profes h3{
+    font-size: 60px;
+}
+.resimage p,.profes p{
+    font-size: 25px;
+}
+.intro{
+    padding-bottom: 100px;
+}
+.image{
+    width:500px;
+    height: 300px;
+    float: right;
+    border-radius: 0px;
+    padding-right: 100px;
+    margin-left:30px;
+}
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.resimage ul{
+    float:left;
+    padding-left: 0px;
+}
+.nav{
+    font-size: 15px;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+span{
+    float: left;
+}
+ul{
+    float: right;
+    padding-left: 600px;
+    display: inline-flex;
+}
+li{
+    padding-left: 5px;
+    list-style: none;
+    float: left;
+}
+li:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+a:hover{
+    color: orange;
+}
+#contact{
+    transform: translateX(-150px);
+    padding-left: 150px;
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+    float: left;
+    width: 100%;
+    margin-bottom: 100px;
+}
+#git,#insta,#whatsapp{
+    height: 50px;
+    width: 80px;
+}
+.proj{
+    margin-top: 50px;
+    display: -moz-inline-grid;
+    justify-content: center;
+}
+.p1,.p2,.p3{
+    font-size: 18px;
+    text-align: center;
+    display: inline-flex;
+    background-color:cadetblue;
+    margin: 20px;
+    height: 100px;
+    width:225px;
+    border-radius: 10px;
+}
+.more{
+    display: inline-flex;
+    transform: translateY(25px);
+}
+.p1:hover,.p2:hover,.p3:hover{
+    background-image: linear-gradient(to left,orange,blue);
+}
+.achieve{
+    margin-top: 50px;
+    display: -moz-inline-grid;
+}
+.a1,.a2{
+    display: inline-flex;
+    text-align: center;
+    background-color: blueviolet;
+    margin-bottom: 20px;
+    margin: 20px;
+    height: 150px;
+    width: 225px;
+    border-radius: 10px;
+    font-size: 20px;
+}

@@ -1,0 +1,195 @@
+    #im1 p,#im2 p,#im3 p{
+        float: right;
+        transform: translateY(-75%);
+    }
+    .tg{
+        display: inline;
+    }
+    .Search{
+        border-radius: 20%;
+        width:100px;
+        height: 25px;
+        margin-bottom: 5px ;
+        font-size: 15px;
+    }
+    li{
+        list-style: none;
+        display: inline-block;
+        display: inline;
+        margin: 0 5px 0 0;
+    }
+    a{
+        color: white;
+        margin-right: 10px;
+        text-decoration:none;
+    }
+    a:hover{
+        color: orangered;
+    }
+    #im1,#im2,#im3{
+        float: left;
+        padding: 10px;
+    }
+    .ser_im1,.ser_im2,.ser_im3{ 
+        border-radius: 10px;
+        height: 300px;
+        width: 300px;
+    }
+    .ser img:hover{
+        transform: scale(1.1);
+    }
+    .ser{
+        display: inline;
+        float: left;
+        height: 400px;
+        margin-left: 80px;
+        padding: 15px;
+    }
+    .ser p{
+        width: 180px;
+        background-image: linear-gradient(to right,green,blue);
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        text-align: right;
+        padding-right: 20px;
+        font-size: 25px;
+    }
+    .li{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .bim{
+        margin-left: 50px;
+        float: right;
+        border-radius: 0;
+        height: 250px;
+        width: 300px;
+        margin-right: 80px;
+    }
+    hr{
+        margin: 10px 10px;
+        border-radius: 4px;
+        margin-left: 1px;
+        width: 60px;
+        height: 4px;
+        background-image: linear-gradient(to right,green,blue);
+    }
+    .bdy2{
+        padding: 15px;
+        margin-left: 80px;
+    }
+    .bdy{
+        padding-bottom: 20px;
+        width: 100%;
+        float: left;
+        background-image: url(https://www.pngall.com/wp-content/uploads/1/World-Map-Download-PNG.png);
+    }
+    img{
+        height: 40px;
+        width: 40px;
+        margin-top: 10px;
+        border-radius: 50%;
+    }
+    span{
+        margin-left: 16px;
+        font-size: larger;
+    }
+    body{
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        float: left;
+    }
+    .headinfo{
+        color: #15ff00;
+        margin-left: 80px;
+        border-left: 5px solid rgb(0, 172, 172);
+        border-radius: 10px;
+        padding-left: 20px;
+        isolation: isolate;
+    }
+    .hin{
+        padding: 40px;
+        position: relative;
+    }
+    .hin::before{
+        background-image: url("https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg");
+        background-size: cover;
+        content: '';
+        position: absolute;
+        inset: 0;
+        opacity: 0.3;
+    }
+    button{
+        width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        font-size: 14px;
+        background-image: linear-gradient(to right,orange,purple);
+    }
+    button:hover{
+        transform: translateY(-3px) scale(1.1);
+    }
+    .head{
+        font-size: 20px;
+    }
+    .vertical{
+        border-left: 1px solid rgb(255, 0, 0);
+    }
+    .but2{
+        padding-left: 430px;
+    }
+    .but{
+        padding-left: 20px;
+    }
+    .linkheader{
+        display: inline;
+    }
+    #lh{
+        display: -moz-inline-grid;
+        justify-content: space-between;
+        padding: 10px;
+        padding-left: 80px;
+        background-image: linear-gradient(to right,green,blue);
+    }
+    #mh{
+        background-color: orangered;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .Infm{
+        padding-top: 15px;  
+        background-image: linear-gradient(to right,green,aqua,blue);
+        display: -moz-inline-grid;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .in1,.in2,.in3{
+        text-align: left;
+        height: 130px;
+        width: 380px;
+        display: inline-flex;
+        padding-left: 20px;
+    }
+    #contact{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-left: 150px;
+        justify-content: center;
+        transform: translateX(-75px);
+        text-align: center;
+        display: inline-flex;
+        float: left;
+        width: 100%;
+    }
+    #git,#insta,#whatsapp{
+        height: 50px;
+        width: 60px;
+    }

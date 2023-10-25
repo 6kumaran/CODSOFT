@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Calculator</title>
+    </head>
+    <body>
+        <div>
+            <h1>HTML Calculator</h1>
+            <form name="calculator" id="calci">
+              <div class="container">
+                <input type="text" name="display" id="display" style="height:70px;width:300px;border-radius:20px;font-size:25px;">
+                <br>
+                <br>
+                <input type="button" class="stle" value="1" onclick="addToDisplay('1')">
+                <input type="button" class="stle" value="2" onclick="addToDisplay('2')">
+                <input type="button" class="stle" value="3" onclick="addToDisplay('3')">
+                <input type="button" class="stle" value="+" onclick="addToDisplay('+')"><br>
+                <br>
+                <input type="button" class="stle" value="4" onclick="addToDisplay('4')">
+                <input type="button" class="stle" value="5" onclick="addToDisplay('5')">
+                <input type="button" class="stle" value="6" onclick="addToDisplay('6')">
+                <input type="button" class="stle" value="-" onclick="addToDisplay('-')"><br>
+                <br>
+                <input type="button" class="stle" value="7" onclick="addToDisplay('7')">
+                <input type="button" class="stle" value="8" onclick="addToDisplay('8')">
+                <input type="button" class="stle" value="9" onclick="addToDisplay('9')">
+                <input type="button" class="stle" value="*" onclick="addToDisplay('*')"><br>
+                <br>
+                <input type="button" class="stle" value="." onclick="addToDisplay('.')">
+                <input type="button" class="stle" value="0" onclick="addToDisplay('0')">
+                <input type="button" class="stle" value="/" onclick="addToDisplay('/')">
+                <input type="button" class="stle" value="%" onclick="addToDisplay('%')">
+                <br><br>
+                <input type="button" style="height:60px;width:218px;background-color:black;color:white;font-size:25px;border-radius:20px;" value="CLEAR" onclick="clearDisplay()">
+                <input type="button" class="stle" value="=" onclick="calculate()">
+                </div>
+            </form>
+        </div>
+    </body>
+    <style>
+      .container{
+        width: 340px;
+        background-color: blue;
+        height: 500px;
+        border-radius: 15px;
+        justify-content: center;
+        margin: 0 auto;
+      }
+      input{
+        margin-left:10px;
+      }
+        .stle{
+                height:60px;
+                width:65px;
+                background-color:black;
+                color:white;
+                font-size:25px;
+                border-radius:20px;
+            }
+            div{
+                text-align:center;
+                padding-top:25px;
+            }
+    </style>
+    <script>
+        let calculatorDisplay = document.getElementById('display');
+let expression = '';
+
+function addToDisplay(val) {
+  expression += val;
+  calculatorDisplay.value = expression;
+}
+
+function clearDisplay() {
+  expression = '';
+  calculatorDisplay.value = expression;
+}
+
+function calculate() {
+  try {
+    expression = eval(expression);
+    calculatorDisplay.value = expression;
+  } catch (e) {
+    alert('Invalid Expression');
+  }
+}
+    </script>
+</html>
